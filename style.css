@@ -97,7 +97,9 @@ body{
     margin-top: 50px;
     text-align: center;
 }
-
+.network_info_image{
+    margin-left: 28px;
+}
 
 .network_info_image_image2_3,.network_info_image_image4_5{
     display: flex;
