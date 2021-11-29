@@ -161,9 +161,59 @@ body{
     opacity:0.7;
     width: 100%;
 }
+.user_details{
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.user_details_input_tags{
+    width: 300px;
+    height:45px;
+    margin-bottom: 20px;
+    border: 0;
+    background-image: linear-gradient(to right, rgba(226, 32, 32, 0.5), rgb(231, 23, 23));
+    color:white; 
+    border-radius: 10px;
+    padding: 0 25px;
+    font-size: 15px;
+}
+
+.user_details_choice_options{
+    display: flex;
+    gap:10px;
+    margin-top: 10px;
+}
+
+.user_details_question{
+    font-weight: bolder;
+    font-size: 21px;
+}
+
+.user_details_check_text{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.user_details_choice{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_global_updates{
+    margin-top: 20px;
+    width:125px;
+}
+.button_global:focus{
+    background-color: gray;
+}
+
 footer{
     /* background-color: rgb(248, 24, 24); */
-    background-image: linear-gradient(to right, rgba(255,0,0,0.6), rgba(255,0,0,1));
+    background-image: linear-gradient(to right, rgba(255,0,0,0.66), rgba(255,0,0,1));
 
     color: #fff;
     border-radius: 0px 30px;
