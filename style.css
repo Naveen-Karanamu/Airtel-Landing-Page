@@ -210,6 +210,13 @@ body{
 .button_global:focus{
     background-color: gray;
 }
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
 
 footer{
     /* background-color: rgb(248, 24, 24); */
@@ -355,6 +362,61 @@ footer{
 
     }
 
+    .user_details_input_tags{
+        width:400px;
+        height: 60px;
+    }
+
+    .user_details{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 35px;
+    }
+
+    form{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap:50px;
+        justify-content: center;
+        align-items: center;
+    }
+    .user_details_updates_button{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+
+    }
+
+    .button_global_updates{
+        margin-top: -15px;
+        width: 25%;
+    }
+
+    .user_details_inputs_1_2{
+        display: flex;
+        gap:40px;
+
+    }
+    .user_details_input_tags{
+        font-size: 30px;
+    }
+    .user_details_inputs_3_4{
+        display: flex;
+        gap:40px;
+        margin-left: -255px;
+        
+    }
+    .user_details_question{
+        font-size: 35px;
+    }
+    .user_details_check_text{
+        font-size: 27px;
+    }
+    .user_details_choice{
+        margin-right: -300px;
+    }
     footer{
         display: flex;
         height:350px;
@@ -363,6 +425,7 @@ footer{
         align-items: center;
         border-radius: 0 45px;
     }
+    
     .social_media{
         width: 50%;
         margin-left: -120px;
